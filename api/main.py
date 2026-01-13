@@ -8,22 +8,6 @@ from schemas import StudentCreate, ScoreCreate, ScoreResponse
 
 app = FastAPI()
 
-# Pydantic схемы для валидации
-class StudentCreate(BaseModel):
-    telegram_id: int
-    first_name: str
-    last_name: str
-
-class ScoreCreate(BaseModel):
-    telegram_id: int
-    subject: str
-    score: int
-
-@app.on_event("startup")
-async def startup():
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
-
 @app.post("/register/")
 async def register_student(student: StudentCreate, db: AsyncSession = Depends(get_db)):
     # Проверяем, есть ли уже такой
