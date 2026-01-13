@@ -1,6 +1,12 @@
 # 🎓 Exam Score Collector (Bot + API)
 
-Прототип сервиса для сбора и хранения баллов ЕГЭ. Сделано в рамках тестового задания.
+Сервис для сбора, хранения и анализа баллов ЕГЭ. Реализован как микросервисное приложение: Telegram-бот (фронтенд) и FastAPI (бэкенд) с базой данных PostgreSQL.
+
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-green.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)
+![Docker](https://img.shields.io/badge/Docker-Compose-orange.svg)
+![Tests](https://img.shields.io/badge/Tests-Pytest-brightgreen.svg)
 
 ## 🚀 Технологии
 * **Backend:** FastAPI (Asynchronous)
