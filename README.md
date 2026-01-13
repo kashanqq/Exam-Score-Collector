@@ -23,8 +23,8 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone [https://github.com/your-username/exam-score-collector.git](https://github.com/your-username/exam-score-collector.git)
-    cd exam-score-collector
+    git clone https://github.com/kashanqq/Exam-Score-Collector.git
+    cd Exam-Score-Collector
     ```
 
 2.  **Настройте окружение:**
@@ -56,6 +56,7 @@ docker-compose exec api pytest
 
 tests/test_main.py ...                                      [100%]
 === 3 passed in 0.45s ===
+```
 
 📖 Документация API
 
