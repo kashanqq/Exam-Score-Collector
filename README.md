@@ -54,8 +54,10 @@ docker-compose exec api pytest
 ```
 Ожидаемый результат:
 
+```bash
 tests/test_main.py ...                                      [100%]
 === 3 passed in 0.45s ===
+```
 
 
 📖 Документация API
