@@ -7,6 +7,7 @@
 * **Bot:** Aiogram 3.x (Async Telegram Framework)
 * **Database:** PostgreSQL + SQLAlchemy 2.0 (Async)
 * **Infrastructure:** Docker & Docker Compose
+* **Migration:** Alembic 
 
 ## 🛠 Функционал
 - **Регистрация:** Ученики регистрируются через Telegram-бота.
